@@ -1,0 +1,39 @@
+.user-photos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+
+.photo-container {
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 750px;
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-details {
+  padding: 10px;
+}
+
+.comments-section {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.comment-item {
+  margin-bottom: 30px;
+}
+
+.comment-item:last-child {
+  margin-bottom: 0;
+}

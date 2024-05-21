@@ -1,0 +1,37 @@
+.heading {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.user-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-name {
+  margin-bottom: 10px;
+  color: #3f51b5; /* Primary color */
+}
+
+.user-info {
+  margin: 5px 0;
+}
+
+.view-photos-link {
+  margin-top: 20px;
+  color: #3f51b5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.view-photos-link:hover {
+  text-decoration: underline;
+}
